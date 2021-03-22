@@ -1,0 +1,155 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+        url('polices/ballpark.woff') format('woff'),
+        url('polices/ballpark.ttf') format('truetype'),
+        url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+        url('polices/dayrom.woff') format('woff'),
+        url('polices/dayrom.ttf') format('truetype'),
+        url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.Block_page{
+    width: 900px;
+    margin: auto;
+    background-color: #F7EACC;
+    padding: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logosection{
+    display: flex;
+}
+.logoparagraf{
+    
+}
+
+.header_list{
+    
+    list-style-type: none;
+    display: flex;
+    
+}
+.menuitem{
+    align-self: space-between;
+}
+
+/* firstsection*/
+
+.banner_image{
+    margin-top: 15px;
+    height: 200px;
+    background: url('images/sanfrancisco.jpg') no-repeat ;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 0px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+.banner-description{
+    position: absolute;
+    bottom:0;
+    background-color: rgb(0, 0,0,0.5);
+    color: #fff;
+    width: 99.5%;
+    height: 33px;
+    border-radius: 0px 0px 5px 5px;
+    padding-top: 15px;
+    font-size: 0.8em;
+}
+.buttonred{
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+    text-decoration: none;
+    background-color: #A75C5D;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px 5px ;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+}
+.section_article{
+    /* background-color: royalblue; */
+    display: flex;
+    width: 900px;
+}
+.artcl{
+    /* flex-grow: 1; */
+}
+.right_part{
+    width: 500px;
+}
+.artcl{
+    position: relative;
+}
+.artcl img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.artcl h1{
+    position: absolute;
+    top:5px;
+    left:60px;
+}
+.text{
+    text-align: justify;
+    margin-right: 10px;
+}
+.text p{
+    font-size: 1em;
+    font-weight: 200;
+}
+.text p a{
+    color:#A75C5D;
+}
+.right_part{
+    background-color: #6F6963;
+    width: 700px;
+    height: 400px;
+    margin-left: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.right_part h2{
+    color: #fff;
+    text-shadow: 0px 0px 4px #1c1a19;
+}
+.right_part{
+    font-size: 1em;
+    font-weight: 200;
+    color: #fff;
+}
+footer{
+    display: flex;
+    align-items: space-between;
+}
+
+.leftside{
+    margin: 25px;
+}
+.centerside{
+    text-align: center;
+    flex-grow: 1;
+}
+.footer_list{
+    columns: 2;
+    margin-right: 20px;
+}
